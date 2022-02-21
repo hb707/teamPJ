@@ -13,7 +13,7 @@
         </tr>
         {% for item in list%}
         <tr>
-            <form method="post" action="/admin">
+            <form method="post" action="/admin/user">
                 <td>{{item.userId}}</td>
                 <td><a href="/user/profile">{{item.userName}}</a></td>
                 <td>{{item.nickname}}</td>
